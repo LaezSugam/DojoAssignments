@@ -1,0 +1,1 @@
+The contents of this folder relate to my assignments at Coding Dojo.
