@@ -1,0 +1,5 @@
+Created a new GitHub repository named "DojoAssignments"
+Initialized a local git repository for the entirety of the DojoAssignments directory.
+Added, committed, and pushed DojoAssignments.
+Created a readme and added/committed/pushed.
+Will now do a new commit with this file included.
