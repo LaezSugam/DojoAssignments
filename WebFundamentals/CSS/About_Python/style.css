@@ -29,7 +29,7 @@ p{
 	width: 970px;
 	background-color: #245176;
 	background: linear-gradient(#245277, #3373AB) ;;
-	padding: 10px;
+	padding: 10px 10px 5px 10px;
 }
 
 #pythonLogo{
@@ -42,7 +42,7 @@ p{
 	background-color: #417BAD;
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px #000000;
-	width: 900px;
+	width: 880px;
 	margin-left: 50px;
 	margin-top: 15px;
 }
@@ -53,6 +53,10 @@ p{
 	text-align: center;
 	margin: 10px;
 	font-size: 18px;
+}
+
+#topNav li a{
+	text-decoration: none;
 }
 
 #searchContainer{
@@ -70,7 +74,8 @@ p{
 }
 
 #textSize{
-	margin-left:90px;
+	margin-left:105px;
+	font-size: 14px;
 }
 
 #search{
@@ -116,7 +121,7 @@ p{
 }
 
 #main {
-	width: 700px;
+	width: 680px;
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 20px;
@@ -136,10 +141,11 @@ p{
 }
 
 .subContent{
-	width: 300px;
+	width: 290px;
 	display: inline-block;
 	border-top: 5px solid #73A7D5;
-	margin-right: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
 	color: black;
 	vertical-align: top;
 	text-align: center;
@@ -155,35 +161,53 @@ p{
 
 .subContent p{
 	color: black;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
+}
+
+.subContent p a{
+	color: #6CA0CE;
+	font-size: 12px;
+	text-decoration: none;
 }
 
 .subContent ul{
 	display: inline-block;
-	width: 300px;
+	width: 240px;
 }
 
 .subContent ul li{
 	color: black;
 	margin-left: 0px;
+	list-style-type: square;
+}
+
+.subContent ul li a{
+	color: #6CA0CE;
+	text-decoration: none;
 }
 
 #bottomNav{
 	list-style: none;
-	margin-left: 130px;
+	margin-left: 200px;
 	margin-top: 30px;
 }
 
 #bottomNav li{
-	display: inline-block;
-	width: 200px;
+	display: inline;
 	text-align: center;
-	margin: 10px;
-	font-size: 14px;
+	margin: 20px;
+	font-size: 16px;
+}
+
+#bottomNav li a{
+	color: #6DA1CE;
+	text-decoration: none;
 }
 
 #wrapper3 p{
 	font-size: 8px;
 	text-align: center;
 	margin-bottom: 0px;
+	margin-top: 20px;
+	color: #6DA1CE;
 }
