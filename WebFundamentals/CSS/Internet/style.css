@@ -1,0 +1,221 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, "Courier New", sans-serif;
+}
+
+h1 {
+	font-weight: normal;
+	display: inline-block;
+	font-size: 36px;
+}
+
+h2 {
+	font-weight: normal;
+	color: #FFFFFF;
+	background: linear-gradient(#2A69A0, #5283AB, #2A69A0);
+	padding: 10px 20px;
+}
+
+#wrapper{
+	margin: 0 auto;
+	width: 970px;
+	background: linear-gradient(#E3E3E3, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+}
+
+#header{
+	margin: 0 auto;
+	width: 970px;
+}
+
+#globe {
+	width: 70px;
+	margin-bottom: -25px;
+}
+
+.blueFont{
+	color: #22659E;
+}
+
+.redFont{
+	color: #D9231C;
+}
+
+#leftNav{
+	width: 170px;
+	margin-top: 20px;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 2px;
+}
+
+#leftNav h3{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+#leftNav p{
+	margin-bottom: 10px;
+}
+
+#whatInternet {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #AFAFAF;
+}
+
+.button {
+	display: inline-block;
+	width: 160px;
+	margin: 5px 5px 0px 5px;
+	text-align: center;
+	color: #FFFFFF; 
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px #888888;
+	text-decoration: none;
+}
+
+.blueButton {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	background: linear-gradient(#6398C3, #23659E);
+}
+
+.orangeButton {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	background: linear-gradient(#EBAA54, #EF7300);
+}
+
+.skyButton {
+	font-size: 14px;
+	font-weight: normal;
+	background: linear-gradient(#72CFDF, #00C0DF);
+	width: 150px;
+}
+
+#dojoAd {
+	width: 170px;
+	background-image: url("image/ad_background.png");
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: normal;
+	text-align: center;
+	padding: 10px 0px 30px 0px;
+}
+
+#dojoAd p{
+	margin: 5px;
+}
+
+#dojoAd img{
+	width: 80px;
+	margin: 0 auto;
+}
+
+#dojoAd a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#main {
+	width: 740px;
+	margin-left: 50px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+#main a{
+	color: #00BFDF;
+	text-decoration: none;
+}
+
+#mainHeader {
+	border-bottom: 1px solid #AFAFAF;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+#house {
+	width: 20px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+
+#dns {
+	color: #22659E;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+#phone {
+	width: 30px;
+	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+#phoneNumber{
+	text-align: right;
+	font-size: 9px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#phoneNumber a{
+	font-size: 22px;
+	color: #00BFDF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#main h3{
+	font-size: 18px;
+	color: #22659E;
+	margin-bottom: 10px;
+}
+
+#main p{
+	margin-bottom: 10px;
+}
+
+#main ul, ol{
+	margin-left:35px;
+}
+
+#main ul li, ol li{
+	margin-bottom: 10px;
+}
+
+#clientServer {
+	margin: 0 auto;
+	width: 300px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.callout {
+	border: 4px solid #0085E0;
+}
+
+.callout img{
+	display: inline-block;
+	width: 110px;
+	margin: 10px;
+	vertical-align: top;
+}
+
+.calloutContent {
+	display: inline-block;
+	width: 590px;
+	vertical-align: top;
+	margin-top: 10px;
+}
