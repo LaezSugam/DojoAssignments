@@ -1,0 +1,21 @@
+var num1 = 383;
+var num2 = -78;
+var num3 = .42;
+var num4 = num1 + num2;
+var string1 = "Hello";
+var string2 = "Is it me you're looking for?";
+var string3 = "Maybe, " + "maybe not";
+var boolean1 = true;
+var boolean2 = false;
+var arr = [num1, string2, boolean2];
+
+console.log("The First Number", num1);
+console.log("The Second Number", num2);
+console.log("The Third Number", num3);
+console.log("The Fourth Number", num4);
+console.log("The First String:", string1);
+console.log("The Second String:", string2);
+console.log("The Third String:", string3);
+console.log("The First Boolean", boolean1);
+console.log("The Second Boolean", boolean2);
+console.log("The Undefined", arr);
