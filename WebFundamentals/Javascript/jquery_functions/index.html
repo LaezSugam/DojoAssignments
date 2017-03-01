@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQueary Functions</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#hello").click(function(){
+				alert("Hello World!");
+			});
+			$("#hide").click(function(){
+				$("#world").hide(600);
+			});
+			$("#show").click(function(){
+				$("#world").show(600);
+			});
+			$("#toggle").click(function(){
+				$("#world").toggle(600);
+			});
+			$("#slideDown").click(function(){
+				$("#badWorld").slideDown(600);
+			});
+			$("#slideUp").click(function(){
+				$("#badWorld").slideUp(600);
+			});
+			$("#slideToggle").click(function(){
+				$("#badWorld").slideToggle(600);
+			});
+			$("#fadeIn").click(function(){
+				$("#supes").fadeIn(600);
+			});
+			$("#fadeOut").click(function(){
+				$("#supes").addClass("glow");
+				$("#supes").fadeOut(600);
+			});
+			$("#before").click(function(){
+				$("#world").before("<h1>Header</h1>");
+			});
+			$("#after").click(function(){
+				$("#world").after("<h1>Header</h1>");
+			});
+			$("#append").click(function(){
+				var text = $("#appendBox").val();
+				$("h1").append(text);
+			});
+			$("#html").click(function(){
+				$("h1").html("<h2>Haha</h2>");
+			});
+			$("#attr").click(function(){
+				$("#world").attr("alt", "The is the world as we know it.");
+			});
+			$("#text").click(function(){
+				$("h1").text("This is the text");
+			});
+		});
+	</script>
+</head>
+<body>
+	<button id="hello">Hello</button>
+	<button id="hide">Hide the world</button>
+	<button id="show">Show the world</button>
+	<button id="toggle">Toggle the world</button>
+	<button id="slideDown">Slide down the bad world</button>
+	<button id="slideUp">Slide up the bad world</button>
+	<button id="slideToggle">Slide toggle the bad world</button>
+	<button id="fadeIn">Call Superman!</button>
+	<button id="fadeOut">His work here is done!</button>
+	<button id="before">Add stuff before</button>
+	<button id="after">Add stuff after</button>
+	<input type="text" name="appendBox" id="appendBox">
+	<button id="append">append</button>
+	<button id="html">The bad world wins!</button>
+	<button id="attr">Attribute</button>
+	<button id="text">Text</button><br>
+	<img id="world" src="https://img.clipartfest.com/dada32b2a3ed2ffe42a5b54c31212b6a_-world-globe-psd-icons-free-clipart-globe-world_512-512.png">
+	<img id="badWorld" src="http://2.bp.blogspot.com/-K0JGtZqCqfA/TnzzKDUY8hI/AAAAAAAAACI/zBTysbeAAwI/s1600/bbw_logo_small.png">
+	<img id="supes" src="https://upload.wikimedia.org/wikipedia/en/e/eb/SupermanRoss.png">
+</body>
+</html>

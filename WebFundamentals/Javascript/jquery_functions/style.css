@@ -1,0 +1,32 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 20px;
+}
+
+#world {
+	width: 200px;
+	margin: 20px;
+	display: inline-block;
+}
+
+#badWorld {
+	width: 200px;
+	margin: 20px;
+	display: none;
+}
+
+#supes {
+	width: 200px;
+	margin: 20px;
+	display: none;
+}
+
+.glow {
+	border-color: gold;
+    box-shadow: 0 0 10px yellow;
+    border-radius: 20px;
+}
