@@ -1,0 +1,31 @@
+*{
+	margin: 5px;
+	padding: 0px;
+}
+
+#wrapper {
+	width: 970px;
+	margin: 0 auto;
+}
+
+#userTable tr td, tr th{
+	border: 1px solid black;
+}
+
+#leftSide {
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+}
+
+#rightSide {
+	display: inline-block;
+	width: 400px;
+	vertical-align: top;
+}
+
+.card {
+	width: 300px;
+	height: 150px;
+	background-color: #F1F1F1;
+}
