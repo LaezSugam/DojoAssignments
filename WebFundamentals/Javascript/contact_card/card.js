@@ -1,7 +1,7 @@
 var users = [];
 var identifier = 0;
 
-/*function cardFlipHandler(){
+function cardFlipHandler(){
 	$(".card").click(function(){
 		var tempID = $(this).attr("identifier");
 		if($(this).attr("state") === "front"){
@@ -13,10 +13,10 @@ var identifier = 0;
 			$(this).attr("state", "front");
 		}
 	});
-}*/
+}
 
 $(document).ready(function(){
-	/*cardFlipHandler();*/
+	cardFlipHandler();
 	$("#addUser").click(function(){
 		var fname = $("form").find("input[name='first_name']").val();
 		var lname = $("form").find("input[name='last_name']").val();
@@ -24,10 +24,10 @@ $(document).ready(function(){
 		users.push({first_name: fname, last_name: lname, description: desc});
 		$("#rightSide").append("<div class='card' identifier='" + identifier + "' state='front'><h1>" +fname + " " + lname + "</h1><p>Click for description</p></div>");
 		identifier++;
-		/*cardFlipHandler();*/
+		cardFlipHandler();
 	});
 
-	$(document).on("click", ".card", function(){
+	/*$(document).on("click", ".card", function(){
 		var tempID = $(this).attr("identifier");
 		if($(this).attr("state") === "front"){
 			$(this).html("<p>" + users[tempID].description + "</p>");
@@ -37,5 +37,5 @@ $(document).ready(function(){
 			$(this).html("<h1>" + users[tempID].first_name + " " + users[tempID].last_name + "</h1><p>Click for description</p>");
 			$(this).attr("state", "front");
 		}
-	});
+	});*/
 });

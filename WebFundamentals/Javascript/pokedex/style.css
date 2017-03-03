@@ -1,0 +1,49 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*outline: 1px solid red;*/
+	font-family: Arial, "Courier New", sans-serif;
+}
+
+h1, h2, h3, p, ul {
+	margin-bottom: 10px;
+}
+
+ul{
+	margin-left: 20px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+
+.wrapper {
+	width: 970px;
+	margin: 0 auto;
+	border: 10px solid red;
+	border-radius: 15px;
+}
+
+.pokeSelect {
+	display: inline-block;
+	width: 600px;
+	vertical-align: top;
+	border: 2px solid black;
+}
+
+.pokeDisplay {
+	display: inline-block;
+	width: 300px;
+	margin-left: 20px;
+	border: 2px solid gray;
+	vertical-align: top;
+	position: fixed;
+	padding: 10px;
+}
+
+img {
+	width: 100px;
+	margin: 5px;
+	vertical-align: top;
+}

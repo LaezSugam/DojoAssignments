@@ -1,0 +1,30 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*outline: 1px solid red;*/
+	font-family: Arial, "Courier New", sans-serif;
+}
+
+h1, h2, h3, p, ul {
+	margin-bottom: 10px;
+}
+
+ul{
+	margin-left: 20px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+
+.wrapper {
+	width: 970px;
+	margin: 0 auto;
+	border: 10px solid blue;
+	border-radius: 15px;
+}
+
+#weatherBox {
+	
+}

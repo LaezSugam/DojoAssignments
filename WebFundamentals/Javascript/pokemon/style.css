@@ -1,0 +1,17 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	/*outline: 1px solid red;*/
+	font-family: Arial, "Courier New", sans-serif;
+}
+
+
+#wrapper {
+	width: 970px;
+	margin: 0 auto;
+}
+
+img {
+	width: 100px;
+	margin: 5px;
+}
